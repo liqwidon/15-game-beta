@@ -6,8 +6,6 @@ The implementation is described in other files via comments
 #include <iostream>
 #include "game15_windows.h"
 
-using namespace std;
-
 int main()
 {
     GameGUI test(Point {420, 200}, "Game 15 close beta");
