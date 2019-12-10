@@ -64,7 +64,7 @@ Game15Core::Game15Core () //constructor where we initialise board, ckeck if it i
     return;
 }
 
-bool  Game15Core::is_Solvable() const // пока не знаю, как работает...
+bool  Game15Core::is_Solvable() const
 {
     int pairs = 0;
     for (int i = 1; i < 16; ++i) {
